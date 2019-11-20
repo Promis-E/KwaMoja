@@ -2,6 +2,7 @@ table {
 background-color:#fff;
 width:auto;
 margin:0 auto;
+margin-bottom:5px;
 table-layout: fixed;
 }
 table tr.visible {
@@ -58,10 +59,16 @@ background-color:#fddbdb;
 color:red;
 border:1px solid red;
 }
+table tr.total_row {
+background:#777C59;
+color:#FFFFFF;
+font-weight:bold;
+}
 table .number {
 text-align:right;
 }
 table th .PrintIcon {
+width:32px;
 float:right;
 cursor:pointer;
 }

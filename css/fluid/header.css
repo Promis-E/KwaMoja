@@ -30,6 +30,9 @@ float:right;
 padding-left:10px;
 padding-right:30px;
 }
+header #ExitIcon img {
+width:32px;
+}
 header .FontSize {
 font-weight:bold;
 display:inline;
@@ -45,19 +48,20 @@ margin-left:0px;
 color:white;
 }
 header #favourites {
-background:transparent;
+background: url(images/descending.png) no-repeat right transparent;
+background-size:contain;
 overflow: hidden;
-color:#B0C4DE;
+color:#FFFFFF;
 font-size: 130%;
+font-weight:bold;
 padding-top: 2px;
 padding-bottom: 2px;
 padding-left: 7px;
-padding-right: 7px;
-border: solid 1px #fff;
-border-radius: 15px;
+padding-right: 32px;
+border: solid 2px #fff;
+border-radius: 4px;
 margin: 2px;
-}
-header #favourites:hover {
-box-shadow:2px 2px 3px #86C3D7, -2px -2px 3px #383878;
+-moz-appearance:none;
+-webkit-appearance: none;
 cursor:pointer;
 }
