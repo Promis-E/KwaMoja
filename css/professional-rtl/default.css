@@ -38,6 +38,9 @@ text-align: left;
 padding: 1%;
 border-radius: 4px;
 }
+img {
+width:32px;
+}
 a {
 color:blue;
 text-decoration:none;
@@ -53,6 +56,9 @@ display:inline;
 .centre {
 margin:0 auto;
 text-align:center;
+}
+.top {
+vertical-align:top;
 }
 .dpTbl {
 border: solid navy 1px;

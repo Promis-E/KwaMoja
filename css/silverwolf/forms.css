@@ -1,6 +1,7 @@
 form {
 background:transparent;
 width: 100%;
+margin:0 auto;
 text-align: center;
 color:#1A1A1A;
 }
@@ -41,6 +42,7 @@ text-align:left;
 }
 form fieldset field .fieldtext {
 margin-bottom:8px;
+display:inline;
 }
 form fieldset field input,textarea,select {
 background-color:transparent;
@@ -50,6 +52,14 @@ padding:2px;
 color:#1A1A1A;
 font-family:inherit;
 font-size:inherit;
+transition-duration:0.5s;
+}
+form fieldset field select:not([multiple]) {
+background:url(images/descending.png) no-repeat right transparent;
+padding-right:24px;
+background-size:contain;
+-moz-appearance:none;
+-webkit-appearance: none;
 }
 form fieldset field input:hover,select:hover,textarea:hover {
 background-color:#e3e5f5;
@@ -57,9 +67,11 @@ border-color:gray;
 border-style:solid;
 border-width:1px;
 box-shadow: 0 0 3px #480FCE;
+transition-duration:0.5s;
 }
 form fieldset field input:focus,select:focus,textarea:focus {
 box-shadow: 0 0 3px #480FCE;
+transition-duration:0.5s;
 }
 form fieldset field input[type="email"] {
 display:inline;
@@ -102,18 +114,22 @@ color:#8DCDEB;
 border-radius: 3px;
 cursor: pointer;
 color:#1A1A1A;
+transition-duration:0.5s;
+}
+form input[type="submit"]:hover{
+background:#7F7F7F;
+color:#FFFFFF;
 }
 form input[type="reset"]{
-padding-top: 2px;
-padding-bottom: 2px;
-padding-left: 6px;
-padding-right: 6px;
+background:#E3E1E1;
+padding: 6px;
 margin: 1px;
 border: 1px solid #8DCDEB;
 color:#8DCDEB;
-border-radius: 15px;
+border-radius: 3px;
 cursor: pointer;
 color:#1A1A1A;
+transition-duration:0.5s;
 }
 form .number {
 text-align:right;

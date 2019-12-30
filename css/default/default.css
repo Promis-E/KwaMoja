@@ -5,7 +5,7 @@ font-weight:400;
 src: local('Ubuntu'), url(https://fonts.googleapis.com/css?family=Ubuntu);
 }
 body {
-font-family:"Ubuntu, Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+font-family:Arial, Verdana, Helvetica, sans-serif;
 background-color:#ccd;
 font-weight:400;
 margin:0;
@@ -17,6 +17,9 @@ border: 1px solid;
 text-align: left;
 padding: 1%;
 border-radius: 4px;
+}
+img {
+width:32px;
 }
 a {
 color:navy;
@@ -33,6 +36,9 @@ display:inline;
 .centre {
 margin:0 auto;
 text-align:center;
+}
+.top {
+vertical-align:top;
 }
 .dpTbl {
 border:thin solid #000;

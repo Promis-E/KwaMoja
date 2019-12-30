@@ -20,6 +20,9 @@ border-radius: 4px;
 margin:0 auto;
 margin-bottom:10px;
 }
+img {
+width:32px;
+}
 a {
 color:#0088CD;
 text-decoration:none;
@@ -35,6 +38,9 @@ display:inline;
 .centre {
 margin:0 auto;
 text-align:center;
+}
+.top {
+vertical-align:top;
 }
 .dpTbl {
 border:1px solid #C3C3C3;
